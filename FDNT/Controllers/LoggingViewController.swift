@@ -11,21 +11,66 @@ import UIKit
 class LoggingViewController: UIViewController {
 
     @IBOutlet var logOnButton: UIButton!
+    @IBOutlet var emailUser: UITextField!
+    @IBOutlet var passUser: UITextField!
+    @IBOutlet var wrongDataPrompt: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.wrongDataPrompt.isHidden = true
         self.logOnButton.layer.cornerRadius = 5
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func checkOnBtnClicked(_ sender: UIButton) {
+        /*
+        if Auth.auth().currentUser != nil {
+            print("Signed in")
+            // User is signed in.
+          // ...
+        } else {
+          // No user is signed in.
+          // ...
+            print("Not signed in");
+        }
+         */
     }
-    */
-
+    
+    @IBAction func logOnBtnClicked(_ sender: UIButton) {
+        print("Signing")
+        let child = SpinnerViewController()
+        
+        // add the spinner view controller
+        addChild(child)
+        child.view.frame = view.frame
+        view.addSubview(child.view)
+        child.didMove(toParent: self)
+ 
+        AccountManager.shared.signIn(email: emailUser.text!, pass: passUser.text!) { (error) in
+            let sidebar = MenuViewController.self
+            
+            if (error == nil) {
+                print("SUCCESS")
+                sidebar.emailAccountLabelText = self.emailUser.text!
+                sidebar.emailAccountLabelVisibility = true
+                AccountManager.shared.collectUserTables(completion: { (result) in
+                    for element in result {
+                        print(element)
+                        let t = Tab(name: element.key, website: element.value)
+                        TabAPI.addUserTab(tab: t)
+                    }
+                })
+            }
+            else {
+                print("FAILURE")
+                sidebar.emailAccountLabelVisibility = false
+            }
+            
+            // wait until sining is done and hide the spinner
+            child.willMove(toParent: nil)
+            child.view.removeFromSuperview()
+            child.removeFromParent()
+        }
+    }
+    
 }

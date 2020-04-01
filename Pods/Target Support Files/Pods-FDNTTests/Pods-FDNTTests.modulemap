@@ -1,0 +1,6 @@
+framework module Pods_FDNTTests {
+  umbrella header "Pods-FDNTTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

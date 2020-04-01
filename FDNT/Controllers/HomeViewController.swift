@@ -36,18 +36,27 @@ class HomeViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     
     @IBAction func didTapMenu(_ sender: UIBarButtonItem) {
         guard let menuViewController = storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController else { return }
-        menuViewController.didTapMenuType = { menuType in
-            self.transitionToNew(menuType)
+        menuViewController.didTapMenuType = { (index) in
+            self.transitionToNew(index)
         }
         menuViewController.modalPresentationStyle = .overCurrentContext
         menuViewController.transitioningDelegate = self
         present(menuViewController, animated: true)
     }
     
-    func transitionToNew(_ menuType: MenuType) {
-        let title = String(describing: menuType).replacingOccurrences(of: "_", with: " ")
-        self.title = title
-        
+    func transitionToNew(_ index: Int) {
+        let userTabs = TabAPI.getUserTabs()
+        self.title = userTabs[index].name
+        if var siteURL = userTabs[index].website {
+            if siteURL.substring(to: 6) == "local:" {
+                siteURL = siteURL.substring(from: 6)
+                mainWebView.loadFileURL(siteURL)
+            } else {
+                mainWebView.load(siteURL)
+            }
+            print("LOADING: \(siteURL)")
+        }
+        /*
         switch menuType {
         case .FDNT:
             mainWebView.load("https://dzielo.pl")
@@ -64,6 +73,7 @@ class HomeViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         default:
             break
         }
+         */
     }
 }
 

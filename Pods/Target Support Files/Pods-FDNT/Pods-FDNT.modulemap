@@ -1,0 +1,6 @@
+framework module Pods_FDNT {
+  umbrella header "Pods-FDNT-umbrella.h"
+
+  export *
+  module * { export * }
+}
