@@ -19,21 +19,42 @@ final class AccountManager {
         print("Initialized AccountManager")
     }
     
-    private var userName : String!
-    private var userEmail : String!
-    private var userPass : String!
+    public private(set) var userName : String?
+    public private(set) var userEmail : String? = Auth.auth().currentUser?.email!
     
     func signIn(email: String, pass: String, completion: @escaping (Error?) -> ()) {
-        try! Auth.auth().signOut()
+        self.singOut()
         
         Auth.auth().signIn(withEmail: email, password: pass) { [weak self] (result, error) in
             guard self != nil else { return }
         
-            self!.userName = self!.extractUserName(email: email)
-            self!.userEmail = email
-            self!.userPass = pass
+            if error == nil {
+                self!.userName = self!.extractUserName(email: email)
+                self!.userEmail = email
+            } else {
+                print(error as Any)
+            }
             
             completion(error)
+        }
+    }
+    
+    func singOut() {
+        try! Auth.auth().signOut()
+        
+        self.userName = nil
+        self.userEmail = nil
+        
+        TabAPI.resetUserTabs()
+    }
+    
+    func isSigned() -> Bool {
+        if Auth.auth().currentUser != nil {
+            print("Signed in")
+            return true
+        } else {
+            print("Not signed in")
+            return false
         }
     }
     

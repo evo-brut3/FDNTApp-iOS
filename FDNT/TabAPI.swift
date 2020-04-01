@@ -45,7 +45,7 @@ struct Tab {
 }
 
 class TabAPI {
-    static private var userTabs = [
+    static private let defaultUserTabs : [Tab] = [
         Tab(name: "Strona główna", website: "https://dzielo.pl", image: "strona_glowna"),
         Tab(name: "Ogólne", isSeparator: true),
         Tab(name: "O Fundacji", website: "local:o_fundacji", image: "o_fundacji"),
@@ -54,17 +54,9 @@ class TabAPI {
         Tab(name: "Materiały prasowe", website: "local:materialy_prasowe", image: "materialy_prasowe"),
         Tab(name: "Kontakt", website: "local:kontakt", image: "kontakt"),
         Tab(name: "Twoje zakładki", isSeparator: true)
-        /*
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji"),
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji"),
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji"),
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji"),
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji"),
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji"),
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji"),
-        Tab(name: "Wspólnota krakowska", website: "www.wspolnota-krakowska.pl", image: "o_fundacji")
-        */
- ]
+    ]
+    
+    static private var userTabs : [Tab] = defaultUserTabs
     
     static func getUserTabs() -> [Tab] {
         return userTabs
@@ -72,5 +64,10 @@ class TabAPI {
     
     static func addUserTab(tab: Tab) {
         userTabs.append(tab)
+    }
+    
+    static func resetUserTabs() {
+        userTabs.removeAll()
+        userTabs.append(contentsOf: defaultUserTabs)
     }
 }

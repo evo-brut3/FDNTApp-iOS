@@ -23,17 +23,7 @@ class LoggingViewController: UIViewController {
     }
 
     @IBAction func checkOnBtnClicked(_ sender: UIButton) {
-        /*
-        if Auth.auth().currentUser != nil {
-            print("Signed in")
-            // User is signed in.
-          // ...
-        } else {
-          // No user is signed in.
-          // ...
-            print("Not signed in");
-        }
-         */
+
     }
     
     @IBAction func logOnBtnClicked(_ sender: UIButton) {
@@ -50,9 +40,7 @@ class LoggingViewController: UIViewController {
             let sidebar = MenuViewController.self
             
             if (error == nil) {
-                print("SUCCESS")
-                sidebar.emailAccountLabelText = self.emailUser.text!
-                sidebar.emailAccountLabelVisibility = true
+                print("SUCCESS")                
                 AccountManager.shared.collectUserTables(completion: { (result) in
                     for element in result {
                         print(element)
@@ -63,7 +51,6 @@ class LoggingViewController: UIViewController {
             }
             else {
                 print("FAILURE")
-                sidebar.emailAccountLabelVisibility = false
             }
             
             // wait until sining is done and hide the spinner

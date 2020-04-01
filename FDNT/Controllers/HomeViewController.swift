@@ -9,6 +9,38 @@
 import UIKit
 import WebKit
 
+extension WKWebView {
+    func load(_ urlString: String) {
+        if let url = URL(string: urlString) {
+            let request = URLRequest(url: url)
+            load(request)
+        }
+    }
+   
+    func loadFileURL(_ fileName: String) {
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "html", subdirectory: "LocalPages") {
+            loadFileURL(url, allowingReadAccessTo:
+                url.deletingLastPathComponent())
+            
+            //let request = URLRequest(url: url)
+            //load(request)
+        }
+    }
+}
+
+extension HomeViewController: UIViewControllerTransitioningDelegate {
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.isPresenting = true
+        return transition
+    }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.isPresenting = false
+        return transition
+    }
+}
+
+
 class HomeViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     
     @IBOutlet var mainWebView: WKWebView!
@@ -75,35 +107,5 @@ class HomeViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         }
          */
     }
-}
-
-extension WKWebView {
-    func load(_ urlString: String) {
-        if let url = URL(string: urlString) {
-            let request = URLRequest(url: url)
-            load(request)
-        }
-    }
-   
-    func loadFileURL(_ fileName: String) {
-        if let url = Bundle.main.url(forResource: fileName, withExtension: "html", subdirectory: "LocalPages") {
-            loadFileURL(url, allowingReadAccessTo:
-                url.deletingLastPathComponent())
-            
-            //let request = URLRequest(url: url)
-            //load(request)
-        }
-    }
-}
-
-extension HomeViewController: UIViewControllerTransitioningDelegate {
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        transition.isPresenting = true
-        return transition
-    }
     
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        transition.isPresenting = false
-        return transition
-    }
 }

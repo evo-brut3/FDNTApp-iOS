@@ -519,20 +519,20 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="184"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="john.doe@dzielo.pl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eks-c7-I7W">
-                                    <rect key="frame" x="16" y="150" width="130" height="18"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eks-c7-I7W">
+                                    <rect key="frame" x="16" y="150" width="0.0" height="0.0"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLC-KM-D6f">
-                                    <rect key="frame" x="16" y="121" width="88" height="33"/>
+                                    <rect key="frame" x="16" y="121" width="83" height="33"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <state key="normal" title="Wyloguj się">
+                                    <state key="normal" title="Zaloguj się">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                     <connections>
-                                        <segue destination="vHZ-nP-7S7" kind="show" id="LWs-5f-nTg"/>
+                                        <action selector="signInBtnClicked:" destination="lWm-GF-RVc" eventType="touchUpInside" id="ZuW-LQ-icO"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -783,17 +783,17 @@
         <!--Logowanie-->
         <scene sceneID="XN1-jY-71Y">
             <objects>
-                <viewController title="Logowanie" id="vHZ-nP-7S7" customClass="LoggingViewController" customModule="FDNT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoggingViewController" title="Logowanie" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vHZ-nP-7S7" customClass="LoggingViewController" customModule="FDNT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nbA-tP-09q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkE-0I-rCP">
-                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Sra-EM-f2w">
-                                <rect key="frame" x="32" y="292" width="350" height="61.5"/>
+                                <rect key="frame" x="32" y="324" width="350" height="61.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Niepoprawny email lub hasło!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOT-CG-T67">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="20.5"/>
@@ -811,7 +811,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="PDS-v7-7WF">
-                                <rect key="frame" x="32" y="72" width="350" height="142"/>
+                                <rect key="frame" x="32" y="104" width="350" height="142"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHN-6z-Bhg">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="20.5"/>
@@ -838,7 +838,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rls-vw-Zbi">
-                                <rect key="frame" x="32" y="246" width="350" height="30"/>
+                                <rect key="frame" x="32" y="278" width="350" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47908455129999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ZALOGUJ SIĘ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -848,7 +848,7 @@
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHZ-QV-sEO">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <color key="barTintColor" red="0.99433749910000002" green="0.86897164579999997" blue="0.2401781976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="Logowanie" id="2FD-vI-Yk5">
