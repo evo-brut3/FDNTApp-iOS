@@ -788,11 +788,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkE-0I-rCP">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Sra-EM-f2w">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Sra-EM-f2w">
                                 <rect key="frame" x="32" y="324" width="350" height="61.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Niepoprawny email lub hasło!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOT-CG-T67">
@@ -810,7 +806,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="PDS-v7-7WF">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="PDS-v7-7WF">
                                 <rect key="frame" x="32" y="104" width="350" height="142"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHN-6z-Bhg">
@@ -837,7 +833,7 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rls-vw-Zbi">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rls-vw-Zbi">
                                 <rect key="frame" x="32" y="278" width="350" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47908455129999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="ZALOGUJ SIĘ">
@@ -847,32 +843,14 @@
                                     <action selector="logOnBtnClicked:" destination="vHZ-nP-7S7" eventType="touchUpInside" id="GeC-c9-ULf"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHZ-QV-sEO">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <color key="barTintColor" red="0.99433749910000002" green="0.86897164579999997" blue="0.2401781976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem title="Logowanie" id="2FD-vI-Yk5">
-                                        <barButtonItem key="leftBarButtonItem" title="Wróć" id="4LQ-lz-8Db"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" red="0.99433749910000002" green="0.86897164579999997" blue="0.2401781976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="GkE-0I-rCP" firstAttribute="top" secondItem="aHZ-QV-sEO" secondAttribute="bottom" id="0w4-vE-9cI"/>
                             <constraint firstItem="Rls-vw-Zbi" firstAttribute="leading" secondItem="UwY-ai-Hbm" secondAttribute="leading" constant="32" id="2f0-XA-YMg"/>
                             <constraint firstItem="UwY-ai-Hbm" firstAttribute="trailing" secondItem="Rls-vw-Zbi" secondAttribute="trailing" constant="32" id="3L6-h7-quG"/>
-                            <constraint firstItem="PDS-v7-7WF" firstAttribute="firstBaseline" secondItem="aHZ-QV-sEO" secondAttribute="baseline" constant="32" id="4XS-Kk-Wx0"/>
-                            <constraint firstItem="aHZ-QV-sEO" firstAttribute="centerX" secondItem="nbA-tP-09q" secondAttribute="centerX" id="4m3-jc-PiW"/>
-                            <constraint firstItem="aHZ-QV-sEO" firstAttribute="top" secondItem="UwY-ai-Hbm" secondAttribute="top" id="89y-27-7nK"/>
                             <constraint firstItem="UwY-ai-Hbm" firstAttribute="trailing" secondItem="Sra-EM-f2w" secondAttribute="trailing" constant="32" id="Gf8-pA-4eq"/>
-                            <constraint firstItem="aHZ-QV-sEO" firstAttribute="leading" secondItem="UwY-ai-Hbm" secondAttribute="leading" id="IO8-at-xWR"/>
-                            <constraint firstItem="GkE-0I-rCP" firstAttribute="leading" secondItem="UwY-ai-Hbm" secondAttribute="leading" id="IVs-Ra-6UE"/>
                             <constraint firstItem="Sra-EM-f2w" firstAttribute="top" secondItem="Rls-vw-Zbi" secondAttribute="bottom" constant="16" id="NIv-rD-lOX"/>
                             <constraint firstItem="UwY-ai-Hbm" firstAttribute="trailing" secondItem="PDS-v7-7WF" secondAttribute="trailing" constant="32" id="RT6-ml-7QX"/>
-                            <constraint firstItem="UwY-ai-Hbm" firstAttribute="trailing" secondItem="GkE-0I-rCP" secondAttribute="trailing" id="Rb8-5r-7gP"/>
-                            <constraint firstItem="aHZ-QV-sEO" firstAttribute="trailing" secondItem="UwY-ai-Hbm" secondAttribute="trailing" id="YDq-gm-XQH"/>
-                            <constraint firstAttribute="bottom" secondItem="GkE-0I-rCP" secondAttribute="bottom" id="lU5-Yx-ZX5"/>
                             <constraint firstItem="Rls-vw-Zbi" firstAttribute="top" secondItem="PDS-v7-7WF" secondAttribute="bottom" constant="32" id="vwF-PG-FwG"/>
                             <constraint firstItem="Sra-EM-f2w" firstAttribute="leading" secondItem="UwY-ai-Hbm" secondAttribute="leading" constant="32" id="xBf-9a-B1d"/>
                             <constraint firstItem="PDS-v7-7WF" firstAttribute="leading" secondItem="UwY-ai-Hbm" secondAttribute="leading" constant="32" id="yQ4-4s-QIK"/>
@@ -883,6 +861,7 @@
                         <outlet property="emailUser" destination="xI7-k0-SEX" id="9tX-lK-zo7"/>
                         <outlet property="logOnButton" destination="Rls-vw-Zbi" id="IpR-bU-Vw3"/>
                         <outlet property="passUser" destination="Zhc-d8-XqJ" id="Lu4-n0-Jfi"/>
+                        <outlet property="stackView" destination="PDS-v7-7WF" id="ZGI-hu-AZs"/>
                         <outlet property="wrongDataPrompt" destination="tOT-CG-T67" id="fwT-5X-rfa"/>
                     </connections>
                 </viewController>

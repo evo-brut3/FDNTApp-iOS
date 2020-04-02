@@ -44,6 +44,8 @@ class MenuViewController: UITableViewController {
             
             if let navigationController = UIApplication.shared.keyWindow?.rootViewController as? UINavigationController {
                 navigationController.pushViewController(nextViewController, animated: false)
+                nextViewController.stackView.topAnchor.constraint(equalTo: navigationController.navigationBar.bottomAnchor, constant: 16.0).isActive = true
+                //navigationController.navigationBar.topAnchor
                 }
         } else {
             AccountManager.shared.singOut()

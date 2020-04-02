@@ -10,6 +10,7 @@ import UIKit
 
 class LoggingViewController: UIViewController {
 
+    @IBOutlet var stackView: UIStackView!
     @IBOutlet var logOnButton: UIButton!
     @IBOutlet var emailUser: UITextField!
     @IBOutlet var passUser: UITextField!
