@@ -52,8 +52,7 @@ class TabAPI {
         Tab(name: "Nasz Patron", website: "local:nasz_patron", image: "nasz_patron"),
         Tab(name: "Dla Darczyńcy", website: "local:dla_darczyncy", image: "dla_darczyncy"),
         Tab(name: "Materiały prasowe", website: "local:materialy_prasowe", image: "materialy_prasowe"),
-        Tab(name: "Kontakt", website: "local:kontakt", image: "kontakt"),
-        Tab(name: "Twoje zakładki", isSeparator: true)
+        Tab(name: "Kontakt", website: "local:kontakt", image: "kontakt")
     ]
     
     static private var userTabs : [Tab] = defaultUserTabs

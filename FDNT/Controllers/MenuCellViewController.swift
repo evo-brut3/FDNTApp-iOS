@@ -8,6 +8,14 @@
 
 import UIKit
 
+extension UIImageView {
+    func setImageColor(color: UIColor) {
+        let templateImage = self.image?.withRenderingMode(.alwaysTemplate)
+        self.image = templateImage
+        self.tintColor = color
+    }
+}
+
 class MenuCellViewController: UITableViewCell {
 
     var tab : Tab? {
@@ -28,6 +36,8 @@ class MenuCellViewController: UITableViewCell {
                 
                 cellLabel.textColor = .darkGray
                 cellLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 16.0).isActive = true
+                selectionStyle = UITableViewCell.SelectionStyle.none
+                isUserInteractionEnabled = false
             } else {
                 let image = tabItem.image
                 cellImageView.image = UIImage(named: image ?? "strona_glowna")/*?.resizableImage(withCapInsets: UIEdgeInsets(top: 16.0, left: 16.0, bottom: 16.0, right: 16.0))*/
@@ -119,7 +129,21 @@ class MenuCellViewController: UITableViewCell {
         ]
         NSLayoutConstraint.activate(separatorLineViewConstraints)
     }
-
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        //print(contentView.backgroundColor)
+        if selected == true {
+            contentView.backgroundColor = UIColor.black
+            cellLabel.textColor = UIColor.systemYellow
+            cellImageView.setImageColor(color: UIColor.systemYellow)
+        } else {
+            contentView.backgroundColor = nil
+            cellLabel.textColor = UIColor.black
+            cellImageView.setImageColor(color: UIColor.black)
+        }
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }

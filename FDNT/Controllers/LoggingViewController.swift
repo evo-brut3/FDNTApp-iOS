@@ -21,10 +21,8 @@ class LoggingViewController: UIViewController {
 
         self.wrongDataPrompt.isHidden = true
         self.logOnButton.layer.cornerRadius = 5
-    }
-
-    @IBAction func checkOnBtnClicked(_ sender: UIButton) {
-
+        self.emailUser.isEnabled = true
+        self.passUser.isEnabled = true
     }
     
     @IBAction func logOnBtnClicked(_ sender: UIButton) {
@@ -38,20 +36,27 @@ class LoggingViewController: UIViewController {
         child.didMove(toParent: self)
  
         AccountManager.shared.signIn(email: emailUser.text!, pass: passUser.text!) { (error) in
-            let sidebar = MenuViewController.self
-            
             if (error == nil) {
-                print("SUCCESS")                
+                print("SUCCESS")
+                self.wrongDataPrompt.isHidden = true
+                self.emailUser.isEnabled = false
+                self.passUser.isEnabled = false
                 AccountManager.shared.collectUserTables(completion: { (result) in
+                    if result.count > 0 {
+                        let t = Tab(name: "Twoje zakładki", isSeparator: true)
+                        TabAPI.addUserTab(tab: t)
+                    }
                     for element in result {
                         print(element)
                         let t = Tab(name: element.key, website: element.value)
                         TabAPI.addUserTab(tab: t)
                     }
+                    self.navigationController?.popViewController(animated: true)
                 })
             }
             else {
                 print("FAILURE")
+                self.wrongDataPrompt.isHidden = false
             }
             
             // wait until sining is done and hide the spinner

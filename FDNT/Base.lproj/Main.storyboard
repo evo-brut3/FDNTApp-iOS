@@ -789,7 +789,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Sra-EM-f2w">
-                                <rect key="frame" x="32" y="324" width="350" height="61.5"/>
+                                <rect key="frame" x="32" y="324" width="350" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Niepoprawny email lub hasło!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOT-CG-T67">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="20.5"/>
@@ -797,13 +797,6 @@
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6QX-hL-0vv">
-                                        <rect key="frame" x="0.0" y="31.5" width="350" height="30"/>
-                                        <state key="normal" title="Sprawdź czy działa"/>
-                                        <connections>
-                                            <action selector="checkOnBtnClicked:" destination="vHZ-nP-7S7" eventType="touchUpInside" id="MkB-fP-OMB"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="PDS-v7-7WF">
