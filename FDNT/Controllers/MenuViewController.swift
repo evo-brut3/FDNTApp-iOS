@@ -67,6 +67,7 @@ class MenuViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "tabCell", for: indexPath) as! MenuCellViewController
         cell.tab = userTabs[indexPath.row]
+        cell.tabIndex = indexPath.row
         return cell
     }
     

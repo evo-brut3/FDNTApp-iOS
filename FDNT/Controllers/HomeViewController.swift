@@ -10,6 +10,7 @@ import UIKit
 import WebKit
 
 extension WKWebView {
+    
     func load(_ urlString: String) {
         if let url = URL(string: urlString) {
             let request = URLRequest(url: url)
@@ -44,8 +45,10 @@ extension HomeViewController: UIViewControllerTransitioningDelegate {
 class HomeViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     
     @IBOutlet var mainWebView: WKWebView!
+    
     let transition = SlideInTransition()
-
+    static var currentUserTabIndex : Int = 0
+    
     override func loadView() {
         super.loadView()
         
@@ -78,8 +81,9 @@ class HomeViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     
     func transitionToNew(_ index: Int) {
         let userTabs = TabAPI.getUserTabs()
-        self.title = userTabs[index].name
         if var siteURL = userTabs[index].website {
+            HomeViewController.currentUserTabIndex = index
+            self.title = userTabs[index].name
             if siteURL.substring(to: 6) == "local:" {
                 siteURL = siteURL.substring(from: 6)
                 mainWebView.loadFileURL(siteURL)
@@ -88,24 +92,6 @@ class HomeViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
             }
             print("LOADING: \(siteURL)")
         }
-        /*
-        switch menuType {
-        case .FDNT:
-            mainWebView.load("https://dzielo.pl")
-        case .O_Fundacji:
-            mainWebView.loadFileURL("o_fundacji")
-        case .Nasz_Patron:
-            mainWebView.loadFileURL("nasz_patron")
-        case .Dla_Darczyńcy:
-            mainWebView.loadFileURL("dla_daroczyncy")
-        case .Materiały_prasowe:
-            mainWebView.loadFileURL("materialy_prasowe")
-        case .Kontakt:
-            mainWebView.loadFileURL("kontakt")
-        default:
-            break
-        }
-         */
     }
     
 }

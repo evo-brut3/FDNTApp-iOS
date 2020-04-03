@@ -18,6 +18,9 @@ extension UIImageView {
 
 class MenuCellViewController: UITableViewCell {
 
+    var tabIndex : Int = -1
+    static var selectedTab : MenuCellViewController? = nil
+    
     var tab : Tab? {
         didSet {
             guard let tabItem = tab else { return }
@@ -86,7 +89,7 @@ class MenuCellViewController: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
+
         containerView.addSubview(cellLabel)
         containerView.addSubview(cellImageView)
         containerView.addSubview(separatorLineView)
@@ -132,15 +135,32 @@ class MenuCellViewController: UITableViewCell {
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        //print(contentView.backgroundColor)
+        
         if selected == true {
-            contentView.backgroundColor = UIColor.black
-            cellLabel.textColor = UIColor.systemYellow
-            cellImageView.setImageColor(color: UIColor.systemYellow)
+            MenuCellViewController.selectedTab?.setSelection(selected: false)
+            self.setSelection(selected: true)
+            MenuCellViewController.selectedTab = self
         } else {
-            contentView.backgroundColor = nil
-            cellLabel.textColor = UIColor.black
-            cellImageView.setImageColor(color: UIColor.black)
+            if self.tabIndex == HomeViewController.currentUserTabIndex {
+                self.setSelection(selected: true)
+                MenuCellViewController.selectedTab = self
+            }
+        }
+    }
+    
+    func setSelection(selected: Bool) {
+        if selected {
+            self.contentView.backgroundColor = UIColor.black
+            self.cellLabel.textColor = UIColor.systemYellow
+            self.cellImageView.setImageColor(color: UIColor.systemYellow)
+        } else {
+            self.contentView.backgroundColor = nil
+            if self.tab?.isSeparator == true {
+                self.cellLabel.textColor = UIColor.darkGray
+            } else {
+                self.cellLabel.textColor = UIColor.black
+            }
+            self.cellImageView.setImageColor(color: UIColor.black)
         }
     }
     
