@@ -2,8 +2,8 @@
 //  SpinnerViewController.swift
 //  FDNT
 //
-//  Created by Konrad on 22/03/2020.
-//  Copyright © 2020 Konrad. All rights reserved.
+//  Created by Konrad Startek on 22/03/2020.
+//  Copyright © 2020 Konrad Startek. All rights reserved.
 //
 
 import UIKit

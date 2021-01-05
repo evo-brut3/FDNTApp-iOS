@@ -21,5 +21,13 @@ end
 pod 'Firebase/Analytics'
 pod 'Firebase/Core'
 pod 'FirebaseUI'
+
+# Add MailCore2
+pod 'mailcore2-ios'
+
+# add SwiftKeychainWrapper
+pod 'SwiftKeychainWrapper'
+# https://github.com/jrendel/SwiftKeychainWrapper
+
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods

@@ -1,0 +1,370 @@
+/* Class = "UILabel"; text = "Asystentka Zarządu"; ObjectID = "0k0-Ks-KiM"; */
+"0k0-Ks-KiM.text" = "Asystentka Zarządu";
+
+/* Class = "UILabel"; text = "Adres:"; ObjectID = "0qb-RN-aR5"; */
+"0qb-RN-aR5.text" = "Adres:";
+
+/* Class = "UILabel"; text = "FUNDACJA"; ObjectID = "1ag-9p-ger"; */
+"1ag-9p-ger.text" = "FUNDACJA";
+
+/* Class = "UILabel"; text = "BIURO"; ObjectID = "1I1-sR-zjW"; */
+"1I1-sR-zjW.text" = "BIURO";
+
+/* Class = "UILabel"; text = "GDZIE JESTEŚMY?"; ObjectID = "29r-S6-M6R"; */
+"29r-S6-M6R.text" = "GDZIE JESTEŚMY?";
+
+/* Class = "UILabel"; text = "MODLITWY"; ObjectID = "3Oe-eY-vAS"; */
+"3Oe-eY-vAS.text" = "MODLITWY";
+
+/* Class = "UILabel"; text = "pomoc_1_tekst"; ObjectID = "4dp-cq-Qdw"; */
+"4dp-cq-Qdw.text" = "Potrzebujemy modlitwy naszych darczyńców i sympatyków by z dnia na dzień rozwijać się i nieść dalej nauczanie Ojca Świętego.";
+
+/* Class = "UILabel"; text = "ZARZĄD"; ObjectID = "4E5-bE-Q5J"; */
+"4E5-bE-Q5J.text" = "ZARZĄD";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "4lY-34-KFd"; */
+"4lY-34-KFd.title" = "Menu";
+
+/* Class = "UILabel"; text = "Wiceprzewodniczący"; ObjectID = "4qA-EQ-pzJ"; */
+"4qA-EQ-pzJ.text" = "Wiceprzewodniczący";
+
+/* Class = "UITableViewController"; title = "Odebrane"; ObjectID = "580-3A-51f"; */
+"580-3A-51f.title" = "Odebrane";
+
+/* Class = "UILabel"; text = "dzien_papieski_tekst"; ObjectID = "5fF-L7-nYX"; */
+"5fF-L7-nYX.text" = "To święto naszej Fundacji i zarazem szczególny dzień, w trakcie którego sięgamy myślą do nauczania św. Jana Pawła II. Dzień Papieski obchodzony jest każdego roku, w niedzielę poprzedzającą wybór Karola Wojtyły na Stolicę Piotrową. Obchodom towarzyszą organizowane w całej Polsce wydarzenia, takie jak miasteczka rodzinne, happeningi i koncerty. Tego dnia odbywa się także zbiórka pieniędzy na fundusz stypendialny.";
+
+/* Class = "UIViewController"; title = "Nasz Patron"; ObjectID = "5Mc-O1-iFn"; */
+"5Mc-O1-iFn.title" = "Nasz Patron";
+
+/* Class = "UITextField"; placeholder = "Hasło poczty"; ObjectID = "6KN-VG-enA"; */
+"6KN-VG-enA.placeholder" = "Hasło poczty";
+
+/* Class = "UILabel"; text = "ZOSTAŃ REGULARNYM DARCZYŃCĄ!"; ObjectID = "6z0-Ct-Ouf"; */
+"6z0-Ct-Ouf.text" = "ZOSTAŃ REGULARNYM DARCZYŃCĄ!";
+
+/* Class = "UILabel"; text = "adres_tekst"; ObjectID = "AA0-k2-rq1"; */
+"AA0-k2-rq1.text" = "Fundacja Dzieło Nowego Tysiąclecia
+Skwer ks. kard. Stefana Wyszyńskiego
+601-015 Warszawa";
+
+/* Class = "UILabel"; text = "ŚW. JAN PAWEŁ II"; ObjectID = "AfD-xK-XcI"; */
+"AfD-xK-XcI.text" = "ŚW. JAN PAWEŁ II";
+
+/* Class = "UILabel"; text = "Przewodniczący"; ObjectID = "Ay7-vN-qeb"; */
+"Ay7-vN-qeb.text" = "Przewodniczący";
+
+/* Class = "UILabel"; text = "PRZELEW TRADYCYJNY"; ObjectID = "B2w-lp-qJ5"; */
+"B2w-lp-qJ5.text" = "PRZELEW TRADYCYJNY";
+
+/* Class = "UILabel"; text = "pomoc_4_tekst"; ObjectID = "Bg6-7P-Y5P"; */
+"Bg6-7P-Y5P.text" = "Program PIT umieszczamy każdego roku na naszej stronie.";
+
+/* Class = "UILabel"; text = "E-mail:"; ObjectID = "C5x-DC-3xU"; */
+"C5x-DC-3xU.text" = "E-mail";
+
+/* Class = "UILabel"; text = "Wysłane"; ObjectID = "ch9-FY-QXm"; */
+"ch9-FY-QXm.text" = "Wysłane";
+
+/* Class = "UITableViewController"; title = "Poczta"; ObjectID = "ebE-2u-urd"; */
+"ebE-2u-urd.title" = "Skrzynki";
+
+/* Class = "UIViewController"; title = "Logowanie do poczty"; ObjectID = "ebM-z1-qyG"; */
+"ebM-z1-qyG.title" = "Logowanie do poczty";
+
+/* Class = "UILabel"; text = "TU MOŻESZ POMÓC!"; ObjectID = "emH-kb-xE9"; */
+"emH-kb-xE9.text" = "TU MOŻESZ POMÓC!";
+
+/* Class = "UILabel"; text = "sw_jan_pawel_tekst"; ObjectID = "FWz-WZ-Jyr"; */
+"FWz-WZ-Jyr.text" = "Fundacja “Dzieło Nowego Tysiąclecia” nazywana jest żywym pomnikiem św. Jana Pawła II, dlatego że stypendyści swoją postawą i stylem życia niosą dalej nauczanie Papieża Polaka i budują swoje życie w duchu wartości przez Niego głoszonych.
+
+Jan Paweł II wciąż jest bardzo ważną postacią dla Polaków, jednak niektórzy nie pamiętają Go już zbyt dobrze. Fundacja dba więc o to, by pamięć o Nim trwała i była przekazywana następnym pokoleniom.
+
+Nasz patron uczy nas, że musimy stawiać sobie wysokie wymagania. Swoim życiem już w młodości świadczył, że talenty, które każdy z nas posiada, są darem danym nam przez Boga. Nie możemy ich zakopać, ale naszym zadaniem jest nieustannie je rozwijać dla dobra ludzi i ojczyzny oraz ku chwale Bożej.
+
+Żywy pomnik Jana Pawła II ma więc za zadanie umożliwić rozwój wielu młodym ludziom.  Wspólnotę budujemy na fundamencie wartości głoszonych przez naszego patrona, w ten sposób ucząc się, że człowiek nie żyje tylko dla siebie, ale przede wszystkim dla Boga i dla drugiego człowieka. Patronat św. Jana Pawła II jest więc patronatem miłości i miłosierdzia.";
+
+/* Class = "UILabel"; text = "Odebrane"; ObjectID = "GAd-lo-0og"; */
+"GAd-lo-0og.text" = "Odebrane";
+
+/* Class = "UILabel"; text = "pomoc_7_tekst"; ObjectID = "Gmg-Bq-WWP"; */
+"Gmg-Bq-WWP.text" = "Wystarczy zamiast zwyczajowych kwiatów poprosić gości weselnych o wsparcie programu stypendialnego. Można też na zaproszeniu na uroczystość zaślubin dopisać uprzejmie sformułowaną prośbę, aby goście zamiast kwiatów dla Państwa Młodych przynieśli potwierdzenie wpłaty na konto Fundacji „Dzieło Nowego Tysiąclecia”. Aby ułatwić zaproszonym sprawę, można dołączyć osobny kartonik i na nim dopisać dane rachunku bankowego Fundacji.
+Osoby zainteresowane zachęcamy do kontaktu pod adresem: darczyncy@dzielo.pl.";
+
+/* Class = "UILabel"; text = "NIP:"; ObjectID = "hyM-0d-xvI"; */
+"hyM-0d-xvI.text" = "NIP:";
+
+/* Class = "UILabel"; text = "pomoc_3_tekst"; ObjectID = "iA8-Y0-WP9"; */
+"iA8-Y0-WP9.text" = "Dane do przelewu:
+
+Fundacja „Dzieło Nowego Tysiąclecia”
+Skwer Ks. Kard. Stefana Wyszyńskiego 6
+01–015 Warszawa
+Numer konta: 75 1240 2034 1111 0000 0306 8582";
+
+/* Class = "UILabel"; text = "pomoc_2_tekst"; ObjectID = "ImZ-Ej-zWd"; */
+"ImZ-Ej-zWd.text" = "Tylko dzięki otrzymanym środkom jesteśmy w stanie zapewnić dalszą budowę żywego pomnika św. Jana Pawła II. Pieniądze można wpłacić za pomocą formularza dostępnego w aplikacji lub pobierając blankiet przelewu, zrealizować można go na poczcie lub w banku.";
+
+/* Class = "UILabel"; text = "pomoc_6_tekst"; ObjectID = "iXd-Bc-EI5"; */
+"iXd-Bc-EI5.text" = "Regularne wpłaty dają nam możliwość lepszego zaplanowania wydatków i działań. Można nam pomóc poprzez stałe, np. comiesięczne wpłaty. Wystarczy złożyć w swoim banku stałe zlecenie przelewu określonej kwoty na rachunek Fundacji „Dzieło Nowego Tysiąclecia”. Zadeklarowana przez Państwa kwota może być dowolnej wysokości.";
+
+/* Class = "UILabel"; text = "Menedżer ds. kontaktu z Darczyńcami"; ObjectID = "Jfk-2E-7wr"; */
+"Jfk-2E-7wr.text" = "Menedżer ds. kontaktu z Darczyńcami";
+
+/* Class = "UILabel"; text = "Koordynator ds. formacji stypendiów"; ObjectID = "JOX-KA-wwZ"; */
+"JOX-KA-wwZ.text" = "Koordynator ds. formacji stypendiów";
+
+/* Class = "UIButton"; normalTitle = "ZALOGUJ SIĘ"; ObjectID = "L23-hO-fwS"; */
+"L23-hO-fwS.normalTitle" = "ZALOGUJ SIĘ";
+
+/* Class = "UILabel"; text = "MY O PATRONIE"; ObjectID = "ly5-ls-U2a"; */
+"ly5-ls-U2a.text" = "MY O PATRONIE";
+
+/* Class = "UILabel"; text = "Menedżer ds. Dnia Papieskiego"; ObjectID = "mep-K3-obh"; */
+"mep-K3-obh.text" = "Menedżer ds. Dnia Papieskiego";
+
+/* Class = "UIButton"; normalTitle = "Nie wiesz jakie jest Twoje hasło?"; ObjectID = "MFB-Md-t6f"; */
+"MFB-Md-t6f.normalTitle" = "Nie wiesz jakie jest Twoje hasło?";
+
+/* Class = "UILabel"; text = "gdzie_jestesmy_tekst"; ObjectID = "mq1-eD-4fj"; */
+"mq1-eD-4fj.text" = "Na początku swojego istnienia Fundacja “Dzieło Nowego Tysiąclecia” objęła opieką zdolną młodzież z 5 diecezji: przemyskiej, koszalińsko – kołobrzeskiej, drohiczyńskiej, ełckiej i radomskiej. Z roku na rok zwiększała się jednak liczba diecezji i stypendystów objętych programem stypendialnym. Dziś żywy pomnik budują młodzi ludzie z całej Polski. Stypendystów ze szkół podstawowych i średnich znaleźć można przede wszystkim w małych miejscowościach do 20 tys. mieszkańców. Natomiast studenci, skupieni w większych miastach, tworzą wspólnoty akademickie, w których działają i formują się duchowo. Fundacja obejmuje opieką również młodzież polskiego pochodzenia z Brazylii, Argentyny, Mołdawii, Ukrainy, Rosji, Uzbekistanu i Kazachstanu.";
+
+/* Class = "UILabel"; text = "my_o_patronie_tekst"; ObjectID = "N0Z-IR-ILM"; */
+"N0Z-IR-ILM.text" = "Jan Paweł II to droga życia. Od kiedy jestem w fundacji, zupełnie inaczej patrzę na swoją wiarę, na ludzi, którzy mnie otaczają. Zdecydowanie łatwiej podejmować decyzje, gdy się wie, że Ojciec nad nami czuwa. Móc nazywać się dzieckiem Jana Pawła II to wielki przywilej, ale też odpowiedzialność. Trzeba żyć tak, aby zawsze być godnym nazywać go swoim Ojcem. Wierzę, że to dzięki Janowi Pawłowi II mam teraz ogromną, żółtą rodzinę, która ma wielkie serce, podobne wartości i wiarę w lepsze jutro. Ojcu Świętemu zawdzięczam miłość, rodzinę, wiarę i miejsce, w którym teraz jestem. Można powiedzieć, że zawdzięczam mu to, kim jestem.
+Magdalena Wlazło, stypendystka
+
+    Jan Paweł II jest dla mnie wzorem wytrwałości. Mimo swojej choroby trwał do końca w posłudze Bożej. Jest także wzorem wielkiej miłości. Miłość, jaką darzył Boga i Matkę Bożą, była niepojęta. Byłam też pełna podziwu, jak bardzo kochał Ojczyznę. To, jak za każdym razem wysiadając z samolotu, całował ziemię Polski, zawsze chwytało mnie za serce.
+
+Katarzyna Cieniuch, stypendystka
+
+    Jan Paweł II jest dla mnie przewodnikiem. Jego całe życie i dokonania dały mi ogromną motywację do działania i pomagania innym. Jego nauczanie jest dla mnie swoistym drogowskazem, który wyznacza właściwą ścieżkę wiary.
+
+Krzysztof Babicki, stypendysta";
+
+/* Class = "UILabel"; text = "CO ROBIMY?"; ObjectID = "N4o-rK-X4N"; */
+"N4o-rK-X4N.text" = "CO ROBIMY?";
+
+/* Class = "UILabel"; text = "DZIEŃ PAPIESKI"; ObjectID = "NiW-jN-qER"; */
+"NiW-jN-qER.text" = "DZIEŃ PAPIESKI";
+
+/* Class = "UIViewController"; title = "Dla Darczyńcy"; ObjectID = "nom-4I-haB"; */
+"nom-4I-haB.title" = "Dla Darczyńcy";
+
+/* Class = "UILabel"; text = "kim_jestesmy_tekst"; ObjectID = "nUP-42-6He"; */
+"nUP-42-6He.text" = "Fundacja “Dzieło Nowego Tysiąclecia” obejmuje programem stypendialnym około 2000 uczniów i studentów z całej Polski, a także młodzież polskiego pochodzenia z Brazylii, Argentyny, Mołdawii, Ukrainy, Rosji, Uzbekistanu i Kazachstanu.
+
+Na czele Rady Fundacji stoi kard. Kazimierz Nycz, a przewodniczącym Zarządu jest ks. Dariusz Kowalczyk. Siedziba znajduje się w Warszawie w Sekretariacie Konferencji Episkopatu Polski.
+
+W ciągu dziewiętnastu lat swojej działalności Fundacja objęła opieką 4000 młodych ludzi z całej Polski. Stypendyści z każdego zakątka kraju tworzą Żywy Pomnik Papieża Jana Pawła II.";
+
+/* Class = "UILabel"; text = "informacja_login_poczta_tekst"; ObjectID = "oMP-cc-3Ad"; */
+"oMP-cc-3Ad.text" = "Jeżeli chcesz uzyskać łatwiejszy dostęp do poczty w domenie dzielo.pl, wpisz poniżej hasło do swojej skrzynki. W przeciwnym przypadku kliknij \"Anuluj\".";
+
+/* Class = "UILabel"; text = "changelog_text"; ObjectID = "pNg-2J-mbr"; */
+"pNg-2J-mbr.text" = "1.0.0 - Pierwsze wydanie";
+
+/* Class = "UILabel"; text = "O Fundacji"; ObjectID = "q7B-uz-t6J"; */
+"q7B-uz-t6J.text" = "O Fundacji";
+
+/* Class = "UILabel"; text = "co_robimy_tekst"; ObjectID = "R8Y-BS-5Dr"; */
+"R8Y-BS-5Dr.text" = "Głównym zadaniem i założeniem Fundacji jest wspieranie rozwoju naukowego zdolnej młodzieży pochodzącej z niezamożnych rodzin, z małych miast i terenów wiejskich, ale jej działanie nie ogranicza się jedynie do programu stypendialnego.";
+
+/* Class = "UILabel"; text = "Wiceprzewodniczący"; ObjectID = "RBk-yq-E5Y"; */
+"RBk-yq-E5Y.text" = "Wiceprzewodniczący";
+
+/* Class = "UILabel"; text = "JAK MOŻESZ POMÓC?"; ObjectID = "Rcp-n2-uQo"; */
+"Rcp-n2-uQo.text" = "JAK MOŻESZ POMÓC?";
+
+/* Class = "UILabel"; text = "Telefon:"; ObjectID = "RfZ-0Y-vu9"; */
+"RfZ-0Y-vu9.text" = "Telefon:";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "RHN-6z-Bhg"; */
+"RHN-6z-Bhg.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "ZALOGUJ SIĘ"; ObjectID = "Rls-vw-Zbi"; */
+"Rls-vw-Zbi.normalTitle" = "ZALOGUJ SIĘ";
+
+/* Class = "UINavigationItem"; title = "FDNT"; ObjectID = "rTg-pF-8Mr"; */
+"rTg-pF-8Mr.title" = "FDNT";
+
+/* Class = "UILabel"; text = "Menedżer ds. kampanii społecznych"; ObjectID = "sYc-iE-cib"; */
+"sYc-iE-cib.text" = "Menedżer ds. kampanii społecznych";
+
+/* Class = "UILabel"; text = "nip_tekst"; ObjectID = "tcS-3v-z5b"; */
+"tcS-3v-z5b.text" = "527-23-16-033";
+
+/* Class = "UILabel"; text = "Niepoprawny email lub hasło!"; ObjectID = "tOT-CG-T67"; */
+"tOT-CG-T67.text" = "Niepoprawny email lub hasło!";
+
+/* Class = "UILabel"; text = "MÓDL SIĘ ZA NAS!"; ObjectID = "TpA-0o-ZqE"; */
+"TpA-0o-ZqE.text" = "MÓDL SIĘ ZA NAS!";
+
+/* Class = "UIViewController"; title = "O Fundacji"; ObjectID = "u1N-lR-ExI"; */
+"u1N-lR-ExI.title" = "O Fundacji";
+
+/* Class = "UILabel"; text = "modlitwy_tekst"; ObjectID = "Vb6-cj-4he"; */
+"Vb6-cj-4he.text" = "Litania do św. Jana Pawła II
+
+Kyrie elejson, Chryste elejson, Kyrie elejson
+Chryste usłysz nas, Chryste wysłuchaj nas
+Ojcze z nieba, Boże – zmiłuj się nad nami
+Synu Odkupicielu świata, Boże – zmiłuj się nad nami
+Duchu Święty, Boże – zmiłuj się nad nami
+Święta Trójco, Jedyny Boże – zmiłuj się nad nami
+
+Święta Maryjo – módl się za nami
+Święty Janie Pawle – módl się za nami
+Zanurzony w Ojcu, bogatym w miłosierdzie,
+Zjednoczony z Chrystusem, Odkupicielem człowieka,
+Napełniony Duchem Świętym, Panem i Ożywicielem
+Całkowicie oddany Maryi i przyodziany Jej szkaplerzem,
+Przyjacielu Świętych i Błogosławionych,
+Następco Piotra i Sługo sług Bożych,
+Stróżu Kościoła nauczający prawd wiary,
+Ojcze Soboru i wykonawco jego wskazań,
+Umacniający jedność chrześcijan i całej rodziny ludzkiej,
+Gorliwy Miłośniku Eucharystii,
+Niestrudzony Pielgrzymie tej ziemi,
+Misjonarzu wszystkich narodów,
+Świadku wiary, nadziei i miłości,
+Wytrwały Uczestniku cierpień Chrystusowych,
+Apostole pojednania i pokoju,
+Promotorze cywilizacji miłości,
+Głosicielu Nowej Ewangelizacji,
+Mistrzu wzywający do wypłynięcia na głębię,
+Nauczycielu ukazujący świętość jako miarę życia,
+Papieżu Bożego Miłosierdzia,
+Kapłanie gromadzący Kościół na składanie ofiary,
+Pasterzu prowadzący owczarnię do nieba,
+Bracie i Mistrzu kapłanów,
+Ojcze osób konsekrowanych,
+Patronie rodzin chrześcijańskich,
+Umocnienie małżonków,
+Obrońco nienarodzonych,
+Opiekunie dzieci, sierot i opuszczonych,
+Przyjacielu i Wychowawco młodzieży,
+Dobry Samarytaninie dla cierpiących,
+Wsparcie dla ludzi starszych i samotnych,
+Głosicielu prawdy o godności człowieka,
+Mężu modlitwy zanurzony w Bogu,
+Miłośniku liturgii sprawujący Ofiarę na ołtarzach świata,
+Uosobienie pracowitości,
+Zakochany w krzyżu Chrystusa,
+Przykładnie realizujący powołanie,
+Wytrwały w cierpieniu,
+Wzorze życia i umierania dla Pana,
+Upominający grzeszników,
+Wskazujący drogę błądzącym,
+Przebaczający krzywdzicielom,
+Szanujący przeciwników i prześladowców,
+Rzeczniku i obrońco prześladowanych,
+Wspierający bezrobotnych,
+Zatroskany o bezdomnych,
+Odwiedzający więźniów,
+Umacniający słabych,
+Uczący wszystkich solidarności,
+
+Baranku Boży, który gładzisz grzechy świata, przepuść nam Panie
+Baranku Boży, który gładzisz grzechy świata, wysłuchaj nas Panie
+Baranku Boży, który gładzisz grzechy świata, zmiłuj się nad nami
+
+K: Módl się za nami święty Janie Pawle.
+W: Abyśmy życiem i słowem głosili światu Chrystusa, Odkupiciela człowieka.
+
+
+Akt zawierzenia świata Miłosierdziu Bożemu
+
+Boże, Ojcze miłosierny, który objawiłeś swoją miłość w Twoim Synu Jezusie Chrystusie i wylałeś ją na nas w Duchu Świętym, Pocieszycielu, Tobie zawierzamy dziś losy świata i każdego człowieka. Pochyl się nad nami grzesznymi, ulecz naszą słabość, przezwycięż wszelkie zło, pozwól wszystkim mieszkańcom ziemi doświadczyć Twojego miłosierdzia, aby w Tobie, trójjedyny Boże, zawsze odnajdywali źródło nadziei. Ojcze przedwieczny, dla bolesnej męki i zmartwychwstania Twojego Syna, miej miłosierdzie dla nas i całego świata! Amen.";
+
+/* Class = "UIViewController"; title = "Logowanie"; ObjectID = "vHZ-nP-7S7"; */
+"vHZ-nP-7S7.title" = "Logowanie";
+
+/* Class = "UIButton"; normalTitle = "Zaloguj się"; ObjectID = "VLC-KM-D6f"; */
+"VLC-KM-D6f.normalTitle" = "Zaloguj się";
+
+/* Class = "UILabel"; text = "Hasło"; ObjectID = "vrr-zj-Ctc"; */
+"vrr-zj-Ctc.text" = "Hasło";
+
+/* Class = "UILabel"; text = "Strona główna"; ObjectID = "vY8-3V-QIi"; */
+"vY8-3V-QIi.text" = "Strona główna";
+
+/* Class = "UILabel"; text = "Ogólne"; ObjectID = "VZI-CO-TLf"; */
+"VZI-CO-TLf.text" = "Ogólne";
+
+/* Class = "UILabel"; text = "pomoc_5_tekst"; ObjectID = "wBq-6w-DjF"; */
+"wBq-6w-DjF.text" = "Wystarczy wysłać SMS o treści STYPENDIA pod numer 74 265. Koszt jednego SMS-a to 4,96 zł.";
+
+/* Class = "UILabel"; text = "Materiały prasowe"; ObjectID = "wBY-U9-SBt"; */
+"wBY-U9-SBt.text" = "Materiały prasowe";
+
+/* Class = "UILabel"; text = "Dla Darczyńcy"; ObjectID = "WOh-g7-k05"; */
+"WOh-g7-k05.text" = "Dla Darczyńcy";
+
+/* Class = "UILabel"; text = "WSPIERAJ NAS FINANSOWO!"; ObjectID = "wtO-NM-cpb"; */
+"wtO-NM-cpb.text" = "WSPIERAJ NAS FINANSOWO!";
+
+/* Class = "UILabel"; text = "numer_telefonu_tekst"; ObjectID = "XB4-Wl-0Wo"; */
+"XB4-Wl-0Wo.text" = "(22) 530 48 28";
+
+/* Class = "UILabel"; text = "Menadżer ds. stypendialnych"; ObjectID = "xhV-0s-5fw"; */
+"xhV-0s-5fw.text" = "Menadżer ds. stypendialnych";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "xI7-k0-SEX"; */
+"xI7-k0-SEX.placeholder" = "E-mail:";
+
+/* Class = "UILabel"; text = "Nasz Patron"; ObjectID = "Xpp-W6-EXY"; */
+"Xpp-W6-EXY.text" = "Nasz Patron";
+
+/* Class = "UIButton"; normalTitle = "ANULUJ"; ObjectID = "xqF-sk-zaB"; */
+"xqF-sk-zaB.normalTitle" = "ANULUJ";
+
+/* Class = "UILabel"; text = "PRZEKAŻ 1% PODATKU!"; ObjectID = "YgY-m1-mcZ"; */
+"YgY-m1-mcZ.text" = "PRZEKAŻ 1% PODATKU!";
+
+/* Class = "UILabel"; text = "Niepoprawny email lub hasło!"; ObjectID = "YS4-iN-GLv"; */
+"YS4-iN-GLv.text" = "Niepoprawny email lub hasło!";
+
+/* Class = "UILabel"; text = "WYŚLIJ SMS!"; ObjectID = "YVl-h2-URB"; */
+"YVl-h2-URB.text" = "WYŚLIJ SMS!";
+
+/* Class = "UILabel"; text = "Kontakt"; ObjectID = "Z0x-bc-5bA"; */
+"Z0x-bc-5bA.text" = "Kontakt";
+
+/* Class = "UITextField"; placeholder = "Hasło"; ObjectID = "Zhc-d8-XqJ"; */
+"Zhc-d8-XqJ.placeholder" = "Hasło";
+
+/* Class = "UILabel"; text = "Kierownik Biura Prasowego"; ObjectID = "ztD-yi-I5E"; */
+"ztD-yi-I5E.text" = "Kierownik Biura Prasowego";
+
+/* Class = "UILabel"; text = "KIM JESTEŚMY?"; ObjectID = "zY3-2d-tWS"; */
+"zY3-2d-tWS.text" = "KIM JESTEŚMY?";
+
+/* Class = "UILabel"; text = "email_tekst"; ObjectID = "ZYX-w6-cIt"; */
+"ZYX-w6-cIt.text" = "dzielo@episkopat.pl";
+
+/* Class = "UILabel"; text = "ZBIÓRKA NA TWOIM ŚLUBIE!"; ObjectID = "zzX-wY-kcb"; */
+"zzX-wY-kcb.text" = "ZBIÓRKA NA TWOIM ŚLUBIE!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0pR-A1-R6g"; */
+"0pR-A1-R6g.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "sms"; ObjectID = "94H-AT-iFI"; */
+"94H-AT-iFI.normalTitle" = "";
+
+/* Class = "UIBarButtonItem"; title = "Więcej"; ObjectID = "Fb1-DE-kmQ"; */
+"Fb1-DE-kmQ.title" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fRl-1H-Crf"; */
+"fRl-1H-Crf.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IvS-6C-hrg"; */
+"IvS-6C-hrg.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "one_percent"; ObjectID = "Jw0-iI-4Bz"; */
+"Jw0-iI-4Bz.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "donate"; ObjectID = "N9h-4Q-IT5"; */
+"N9h-4Q-IT5.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "S3z-yC-UH0"; */
+"S3z-yC-UH0.normalTitle" = "";

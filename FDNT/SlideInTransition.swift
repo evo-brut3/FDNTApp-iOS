@@ -2,8 +2,8 @@
 //  SlideInTransition.swift
 //  FDNT
 //
-//  Created by Konrad on 19/09/2019.
-//  Copyright © 2019 Konrad. All rights reserved.
+//  Created by Konrad Startek on 19/09/2019.
+//  Copyright © 2019 Konrad Startek. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
     let dimmingView = UIView()
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 1.0
+        return 0.5
     }
 
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -28,7 +28,7 @@ class SlideInTransition: NSObject, UIViewControllerAnimatedTransitioning {
         
         if isPresenting {
             dimmingView.backgroundColor = .black
-            dimmingView.alpha = 0.8
+            dimmingView.alpha = 0.0
             containerView.addSubview(dimmingView)
             dimmingView.frame = containerView.bounds
             

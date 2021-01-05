@@ -2,24 +2,73 @@
 //  AppDelegate.swift
 //  FDNT
 //
-//  Created by Konrad on 17/09/2019.
-//  Copyright © 2019 Konrad. All rights reserved.
+//  Created by Konrad Startek on 17/09/2019.
+//  Copyright © 2019 Konrad Startek. All rights reserved.
 //
 
 import UIKit
 import Firebase
+import SwiftKeychainWrapper
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // Initialize Firebase
-        print("Initialized AppDelegate")
         FirebaseApp.configure()
+
+        // Clear tabs if user is not signed in
+        if !FirebaseManager.shared.isSigned() {
+            TabManager.CachedTabs.clearTabs()
+        } else {
+            
+            // Add email tab if user has signed to mail account
+            if let email = FirebaseManager.shared.userEmail {
+                let key = KeychainWrapper.Key.init(rawValue: email)
+                
+                if let password = KeychainWrapper.standard.string(forKey: key) {
+                    TabManager.DefaultTabs.enableEmailTab()
+                    EmailManager.shared.connect(login: email, password: password, completion: { isLogged in
+                    
+                        // check if logged in
+                        if isLogged == true {
+                            
+                            // success
+                            EmailManager.shared.fetch()
+                            
+                            // show loading indicator in statusbar
+                            
+                        } else {
+                            // failure
+                            print("AppDelegate - failed to sign into email acccount with the credentials provided by the keychain")
+                            TabManager.DefaultTabs.disableEmailTab()
+                            KeychainWrapper.standard.remove(forKey: key)
+                        }
+                        
+                    })
+                }
+            }
+            
+        }
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.backgroundColor = .fdntYellow
+            appearance.titleTextAttributes = [.foregroundColor: UIColor.black]
+            appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+
+            UINavigationBar.appearance().tintColor = .fdntBlue
+            UINavigationBar.appearance().standardAppearance = appearance
+            UINavigationBar.appearance().compactAppearance = appearance
+            UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        } else {
+            UINavigationBar.appearance().tintColor = .fdntBlue
+            UINavigationBar.appearance().barTintColor = .fdntYellow
+            UINavigationBar.appearance().isTranslucent = false
+        }
+        
         return true
     }
 

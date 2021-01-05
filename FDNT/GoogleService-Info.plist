@@ -21,15 +21,15 @@
 	<key>STORAGE_BUCKET</key>
 	<string>fdntapp-1564519012772.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:255658901145:ios:ccc98aeec7c0a3a0d2c208</string>
 	<key>DATABASE_URL</key>

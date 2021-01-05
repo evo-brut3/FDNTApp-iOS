@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		542BC076FD6543A0CA0A9550 /* Pods_FDNT_FDNTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B9B1EA9AD139A8B0813C92 /* Pods_FDNT_FDNTUITests.framework */; };
-		7100AF452333D25700D09841 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7100AF442333D25700D09841 /* MenuViewController.swift */; };
+		7100AF452333D25700D09841 /* SidebarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7100AF442333D25700D09841 /* SidebarTableViewController.swift */; };
 		7100AF472333F62700D09841 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7100AF462333F62700D09841 /* SlideInTransition.swift */; };
+		7125C27924FE72090055EE10 /* OurPatronViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7125C27824FE72090055EE10 /* OurPatronViewController.swift */; };
+		7125C27B24FE7D800055EE10 /* ForDonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7125C27A24FE7D800055EE10 /* ForDonorViewController.swift */; };
+		712DD54D2500F8D700978ADF /* UIViewController+subviewAddRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD54C2500F8D700978ADF /* UIViewController+subviewAddRemove.swift */; };
+		712DD54F2500F99A00978ADF /* WKWebView+loadURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD54E2500F99A00978ADF /* WKWebView+loadURL.swift */; };
+		712DD5512500FAA300978ADF /* String+substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD5502500FAA300978ADF /* String+substring.swift */; };
+		712DD5532500FB3500978ADF /* UserDefaults+tabsGetSetClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DD5522500FB3500978ADF /* UserDefaults+tabsGetSetClear.swift */; };
 		7135585124226A9900D8BBFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7135585024226A9900D8BBFD /* GoogleService-Info.plist */; };
-		7184A68F24310DBD00CF73DD /* MenuCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7184A68E24310DBD00CF73DD /* MenuCellViewController.swift */; };
-		71A4AC1D24315EA800954691 /* TabAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4AC1C24315EA800954691 /* TabAPI.swift */; };
-		71BAC13324279B4E00923B20 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAC13224279B4E00923B20 /* AccountManager.swift */; };
+		7141FDA92506479700C58EFB /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141FDA82506479700C58EFB /* PreferencesViewController.swift */; };
+		7141FDAE25064E2E00C58EFB /* PreferencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141FDAD25064E2E00C58EFB /* PreferencesTableViewCell.swift */; };
+		7143D35A25155C7900FE949F /* MCOMessageViewScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 7143D35925155C7900FE949F /* MCOMessageViewScript.js */; };
+		7143D35D251567F900FE949F /* MCOMessageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7143D35B251567F100FE949F /* MCOMessageView.mm */; };
+		7144F6132510F383005EA21B /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7144F6122510F383005EA21B /* InboxTableViewController.swift */; };
+		716186FD24FD4A5B00EE8E66 /* AboutFoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716186FC24FD4A5B00EE8E66 /* AboutFoundationViewController.swift */; };
+		71692F3224FD87FA00A9E633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71692F3024FD87FA00A9E633 /* Main.storyboard */; };
+		717CF7612511163F008E8C8A /* UIColor+customColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CF7602511163F008E8C8A /* UIColor+customColors.swift */; };
+		717CF76425111D1F008E8C8A /* PreviewEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CF76325111D1F008E8C8A /* PreviewEmailViewController.swift */; };
+		7184A68F24310DBD00CF73DD /* SidebarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7184A68E24310DBD00CF73DD /* SidebarTableViewCell.swift */; };
+		71A4AC1D24315EA800954691 /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4AC1C24315EA800954691 /* TabManager.swift */; };
+		71B6CDA325235F40000B9E4D /* SignInMailAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6CDA225235F40000B9E4D /* SignInMailAccountViewController.swift */; };
+		71B6CDA52524F175000B9E4D /* UserDefaults+emailAccountGetSetClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6CDA42524F175000B9E4D /* UserDefaults+emailAccountGetSetClear.swift */; };
+		71BAC13324279B4E00923B20 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAC13224279B4E00923B20 /* FirebaseManager.swift */; };
 		71BAC1372427ACD400923B20 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAC1362427ACD400923B20 /* SpinnerViewController.swift */; };
-		71F1AFDA2337910B001E13A0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1AFD92337910B001E13A0 /* SettingsViewController.swift */; };
+		71CC7EBF24FEB4BC0047EAF7 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CC7EBE24FEB4BC0047EAF7 /* ContactViewController.swift */; };
 		71F2E6EA2330567000955146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F2E6E92330567000955146 /* AppDelegate.swift */; };
 		71F2E6EC2330567000955146 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F2E6EB2330567000955146 /* HomeViewController.swift */; };
-		71F2E6EF2330567000955146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F2E6ED2330567000955146 /* Main.storyboard */; };
 		71F2E6F12330568100955146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F2E6F02330568100955146 /* Assets.xcassets */; };
-		71F363EC233D708900F56F5E /* LoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F363EB233D708900F56F5E /* LoggingViewController.swift */; };
-		71F624AB233FA0B9003E9F6C /* ReportErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F624AA233FA0B9003E9F6C /* ReportErrorViewController.swift */; };
-		71F7859B23343E840012042F /* LocalPages in Resources */ = {isa = PBXBuildFile; fileRef = 71F7859A23343E830012042F /* LocalPages */; };
-		86275A0C8D88D941BA002255 /* Pods_FDNT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E96B4C53DAF8598DD46A4E /* Pods_FDNT.framework */; };
+		71F363EC233D708900F56F5E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F363EB233D708900F56F5E /* SignInViewController.swift */; };
+		71F8C9DC250DC93100438AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F8C9DB250DC93000438AC7 /* LaunchScreen.storyboard */; };
+		71F8C9DD250DCC5600438AC7 /* Pods_FDNT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E96B4C53DAF8598DD46A4E /* Pods_FDNT.framework */; };
+		71F8C9DE250DCC5600438AC7 /* Pods_FDNT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3E96B4C53DAF8598DD46A4E /* Pods_FDNT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71F8C9E0250DCC5700438AC7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CC7EBC24FEA9B10047EAF7 /* MessageUI.framework */; };
+		71F8C9E3250EBC9D00438AC7 /* EmailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8C9E2250EBC9D00438AC7 /* EmailTableViewController.swift */; };
+		71F8C9E7250EC65100438AC7 /* EmailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8C9E6250EC65100438AC7 /* EmailManager.swift */; };
+		71FECE9225079B5700532DEC /* ChangelogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FECE9125079B5700532DEC /* ChangelogViewController.swift */; };
 		AF429A7E95D50122CFC8061C /* Pods_FDNTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A1D951E2CDCD8718D9D0C /* Pods_FDNTTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,31 +64,67 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		71F8C9DF250DCC5600438AC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				71F8C9DE250DCC5600438AC7 /* Pods_FDNT.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0D9E89BA3858D31E9CCCC5F9 /* Pods-FDNTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDNTTests.debug.xcconfig"; path = "Target Support Files/Pods-FDNTTests/Pods-FDNTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		22AD60D5675AF4DC6506D136 /* Pods-FDNTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDNTTests.release.xcconfig"; path = "Target Support Files/Pods-FDNTTests/Pods-FDNTTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FA9F584E61EFFB536EF49DC /* Pods-FDNT-FDNTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDNT-FDNTUITests.debug.xcconfig"; path = "Target Support Files/Pods-FDNT-FDNTUITests/Pods-FDNT-FDNTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		433D0D099A70FF5C936F907F /* Pods-FDNT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDNT.release.xcconfig"; path = "Target Support Files/Pods-FDNT/Pods-FDNT.release.xcconfig"; sourceTree = "<group>"; };
 		4A3D19498F56A5570B6845EA /* Pods-FDNT-FDNTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDNT-FDNTUITests.release.xcconfig"; path = "Target Support Files/Pods-FDNT-FDNTUITests/Pods-FDNT-FDNTUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7100AF442333D25700D09841 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7100AF442333D25700D09841 /* SidebarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTableViewController.swift; sourceTree = "<group>"; };
 		7100AF462333F62700D09841 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		71035B8124FD8D6400C543C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71035B8824FD8DD500C543C8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		7125C27824FE72090055EE10 /* OurPatronViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurPatronViewController.swift; sourceTree = "<group>"; };
+		7125C27A24FE7D800055EE10 /* ForDonorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForDonorViewController.swift; sourceTree = "<group>"; };
+		712DD54C2500F8D700978ADF /* UIViewController+subviewAddRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+subviewAddRemove.swift"; sourceTree = "<group>"; };
+		712DD54E2500F99A00978ADF /* WKWebView+loadURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+loadURL.swift"; sourceTree = "<group>"; };
+		712DD5502500FAA300978ADF /* String+substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+substring.swift"; sourceTree = "<group>"; };
+		712DD5522500FB3500978ADF /* UserDefaults+tabsGetSetClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+tabsGetSetClear.swift"; sourceTree = "<group>"; };
 		7135585024226A9900D8BBFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7184A68E24310DBD00CF73DD /* MenuCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellViewController.swift; sourceTree = "<group>"; };
-		71A4AC1C24315EA800954691 /* TabAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAPI.swift; sourceTree = "<group>"; };
-		71BAC13224279B4E00923B20 /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		7141FDA82506479700C58EFB /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		7141FDAD25064E2E00C58EFB /* PreferencesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewCell.swift; sourceTree = "<group>"; };
+		7143D35925155C7900FE949F /* MCOMessageViewScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = MCOMessageViewScript.js; sourceTree = "<group>"; };
+		7143D35B251567F100FE949F /* MCOMessageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MCOMessageView.mm; sourceTree = "<group>"; };
+		7143D35C251567F900FE949F /* MCOMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageView.h; sourceTree = "<group>"; };
+		7144F6122510F383005EA21B /* InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
+		716186FC24FD4A5B00EE8E66 /* AboutFoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFoundationViewController.swift; sourceTree = "<group>"; };
+		717CF7602511163F008E8C8A /* UIColor+customColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+customColors.swift"; sourceTree = "<group>"; };
+		717CF76325111D1F008E8C8A /* PreviewEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewEmailViewController.swift; sourceTree = "<group>"; };
+		7184A68E24310DBD00CF73DD /* SidebarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTableViewCell.swift; sourceTree = "<group>"; };
+		71A4AC1C24315EA800954691 /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
+		71B6CDA225235F40000B9E4D /* SignInMailAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInMailAccountViewController.swift; sourceTree = "<group>"; };
+		71B6CDA42524F175000B9E4D /* UserDefaults+emailAccountGetSetClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+emailAccountGetSetClear.swift"; sourceTree = "<group>"; };
+		71BAC13224279B4E00923B20 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		71BAC1362427ACD400923B20 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
-		71F1AFD92337910B001E13A0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		71CC7EBC24FEA9B10047EAF7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		71CC7EBE24FEB4BC0047EAF7 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		71ED6FD32513BE6600FE7EFC /* FDNT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDNT-Bridging-Header.h"; sourceTree = "<group>"; };
 		71F2E6E62330567000955146 /* FDNT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDNT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F2E6E92330567000955146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F2E6EB2330567000955146 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		71F2E6EE2330567000955146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71F2E6F02330568100955146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71F2E6F52330568100955146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F2E6FA2330568200955146 /* FDNTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDNTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F2E7052330568200955146 /* FDNTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDNTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71F363EB233D708900F56F5E /* LoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingViewController.swift; sourceTree = "<group>"; };
-		71F624AA233FA0B9003E9F6C /* ReportErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportErrorViewController.swift; sourceTree = "<group>"; };
-		71F7859A23343E830012042F /* LocalPages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalPages; sourceTree = "<group>"; };
+		71F363EB233D708900F56F5E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		71F8C9DB250DC93000438AC7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		71F8C9E2250EBC9D00438AC7 /* EmailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewController.swift; sourceTree = "<group>"; };
+		71F8C9E6250EC65100438AC7 /* EmailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailManager.swift; sourceTree = "<group>"; };
+		71FECE9125079B5700532DEC /* ChangelogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangelogViewController.swift; sourceTree = "<group>"; };
 		9D5CFA51F72CFEBA7A9563C3 /* Pods-FDNT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDNT.debug.xcconfig"; path = "Target Support Files/Pods-FDNT/Pods-FDNT.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E96B4C53DAF8598DD46A4E /* Pods_FDNT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDNT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2A1D951E2CDCD8718D9D0C /* Pods_FDNTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDNTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86275A0C8D88D941BA002255 /* Pods_FDNT.framework in Frameworks */,
+				71F8C9E0250DCC5700438AC7 /* MessageUI.framework in Frameworks */,
+				71F8C9DD250DCC5600438AC7 /* Pods_FDNT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +176,7 @@
 		291B6D5E7DE797CF19A39272 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71CC7EBC24FEA9B10047EAF7 /* MessageUI.framework */,
 				D3E96B4C53DAF8598DD46A4E /* Pods_FDNT.framework */,
 				F4B9B1EA9AD139A8B0813C92 /* Pods_FDNT_FDNTUITests.framework */,
 				DD2A1D951E2CDCD8718D9D0C /* Pods_FDNTTests.framework */,
@@ -130,14 +188,60 @@
 			isa = PBXGroup;
 			children = (
 				71F2E6EB2330567000955146 /* HomeViewController.swift */,
-				71F624AA233FA0B9003E9F6C /* ReportErrorViewController.swift */,
-				7100AF442333D25700D09841 /* MenuViewController.swift */,
-				71F1AFD92337910B001E13A0 /* SettingsViewController.swift */,
-				71F363EB233D708900F56F5E /* LoggingViewController.swift */,
+				7100AF442333D25700D09841 /* SidebarTableViewController.swift */,
+				71F363EB233D708900F56F5E /* SignInViewController.swift */,
+				71B6CDA225235F40000B9E4D /* SignInMailAccountViewController.swift */,
 				71BAC1362427ACD400923B20 /* SpinnerViewController.swift */,
-				7184A68E24310DBD00CF73DD /* MenuCellViewController.swift */,
+				7141FDA82506479700C58EFB /* PreferencesViewController.swift */,
+				71FECE9125079B5700532DEC /* ChangelogViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		712DD54B2500F82800978ADF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				712DD54C2500F8D700978ADF /* UIViewController+subviewAddRemove.swift */,
+				712DD54E2500F99A00978ADF /* WKWebView+loadURL.swift */,
+				712DD5502500FAA300978ADF /* String+substring.swift */,
+				712DD5522500FB3500978ADF /* UserDefaults+tabsGetSetClear.swift */,
+				717CF7602511163F008E8C8A /* UIColor+customColors.swift */,
+				71B6CDA42524F175000B9E4D /* UserDefaults+emailAccountGetSetClear.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7141FDAC25064C2B00C58EFB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				7184A68E24310DBD00CF73DD /* SidebarTableViewCell.swift */,
+				7141FDAD25064E2E00C58EFB /* PreferencesTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		716186F724FD349900EE8E66 /* LocalTabsViews */ = {
+			isa = PBXGroup;
+			children = (
+				717CF76225111D08008E8C8A /* EmailView */,
+				7125C27824FE72090055EE10 /* OurPatronViewController.swift */,
+				716186FC24FD4A5B00EE8E66 /* AboutFoundationViewController.swift */,
+				7125C27A24FE7D800055EE10 /* ForDonorViewController.swift */,
+				71CC7EBE24FEB4BC0047EAF7 /* ContactViewController.swift */,
+			);
+			path = LocalTabsViews;
+			sourceTree = "<group>";
+		};
+		717CF76225111D08008E8C8A /* EmailView */ = {
+			isa = PBXGroup;
+			children = (
+				7143D35C251567F900FE949F /* MCOMessageView.h */,
+				7143D35B251567F100FE949F /* MCOMessageView.mm */,
+				71F8C9E2250EBC9D00438AC7 /* EmailTableViewController.swift */,
+				7144F6122510F383005EA21B /* InboxTableViewController.swift */,
+				717CF76325111D1F008E8C8A /* PreviewEmailViewController.swift */,
+			);
+			path = EmailView;
 			sourceTree = "<group>";
 		};
 		71F2E6DD2330567000955146 = {
@@ -163,16 +267,22 @@
 		71F2E6E82330567000955146 /* FDNT */ = {
 			isa = PBXGroup;
 			children = (
-				71F7859A23343E830012042F /* LocalPages */,
+				7141FDAC25064C2B00C58EFB /* CustomCells */,
+				712DD54B2500F82800978ADF /* Extensions */,
+				716186F724FD349900EE8E66 /* LocalTabsViews */,
 				7100AF4A233403EA00D09841 /* Controllers */,
 				71F2E6E92330567000955146 /* AppDelegate.swift */,
-				71BAC13224279B4E00923B20 /* AccountManager.swift */,
-				71F2E6ED2330567000955146 /* Main.storyboard */,
+				71BAC13224279B4E00923B20 /* FirebaseManager.swift */,
+				71F8C9DB250DC93000438AC7 /* LaunchScreen.storyboard */,
+				71692F3024FD87FA00A9E633 /* Main.storyboard */,
 				71F2E6F02330568100955146 /* Assets.xcassets */,
 				71F2E6F52330568100955146 /* Info.plist */,
 				7135585024226A9900D8BBFD /* GoogleService-Info.plist */,
 				7100AF462333F62700D09841 /* SlideInTransition.swift */,
-				71A4AC1C24315EA800954691 /* TabAPI.swift */,
+				71A4AC1C24315EA800954691 /* TabManager.swift */,
+				71F8C9E6250EC65100438AC7 /* EmailManager.swift */,
+				71ED6FD32513BE6600FE7EFC /* FDNT-Bridging-Header.h */,
+				7143D35925155C7900FE949F /* MCOMessageViewScript.js */,
 			);
 			path = FDNT;
 			sourceTree = "<group>";
@@ -185,11 +295,13 @@
 			buildConfigurationList = 71F2E70E2330568200955146 /* Build configuration list for PBXNativeTarget "FDNT" */;
 			buildPhases = (
 				EFD3123138220FC6FDBEE818 /* [CP] Check Pods Manifest.lock */,
+				71035B8924FD8ED700C543C8 /* BartyCrouch */,
 				71F2E6E22330567000955146 /* Sources */,
 				71F2E6E32330567000955146 /* Frameworks */,
 				71F2E6E42330567000955146 /* Resources */,
 				D296FEB99CA4BD6520BE2327 /* [CP] Embed Pods Frameworks */,
 				BCCE2332F226D51E92D192B7 /* [CP] Copy Pods Resources */,
+				71F8C9DF250DCC5600438AC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,10 +377,10 @@
 			};
 			buildConfigurationList = 71F2E6E12330567000955146 /* Build configuration list for PBXProject "FDNT" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = pl;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				pl,
 				Base,
 			);
 			mainGroup = 71F2E6DD2330567000955146;
@@ -288,10 +400,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F7859B23343E840012042F /* LocalPages in Resources */,
+				71692F3224FD87FA00A9E633 /* Main.storyboard in Resources */,
+				7143D35A25155C7900FE949F /* MCOMessageViewScript.js in Resources */,
 				7135585124226A9900D8BBFD /* GoogleService-Info.plist in Resources */,
+				71F8C9DC250DC93100438AC7 /* LaunchScreen.storyboard in Resources */,
 				71F2E6F12330568100955146 /* Assets.xcassets in Resources */,
-				71F2E6EF2330567000955146 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +480,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FDNT-FDNTUITests/Pods-FDNT-FDNTUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		71035B8924FD8ED700C543C8 /* BartyCrouch */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = BartyCrouch;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which bartycrouch > /dev/null; then\n    bartycrouch update -x\n    bartycrouch lint -x\nelse\n    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi\n";
 		};
 		BCCE2332F226D51E92D192B7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -453,17 +584,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F624AB233FA0B9003E9F6C /* ReportErrorViewController.swift in Sources */,
-				71F363EC233D708900F56F5E /* LoggingViewController.swift in Sources */,
+				71F363EC233D708900F56F5E /* SignInViewController.swift in Sources */,
+				7125C27924FE72090055EE10 /* OurPatronViewController.swift in Sources */,
+				7143D35D251567F900FE949F /* MCOMessageView.mm in Sources */,
+				717CF7612511163F008E8C8A /* UIColor+customColors.swift in Sources */,
 				71F2E6EC2330567000955146 /* HomeViewController.swift in Sources */,
+				7144F6132510F383005EA21B /* InboxTableViewController.swift in Sources */,
 				7100AF472333F62700D09841 /* SlideInTransition.swift in Sources */,
-				7100AF452333D25700D09841 /* MenuViewController.swift in Sources */,
-				71A4AC1D24315EA800954691 /* TabAPI.swift in Sources */,
-				71F1AFDA2337910B001E13A0 /* SettingsViewController.swift in Sources */,
+				71B6CDA52524F175000B9E4D /* UserDefaults+emailAccountGetSetClear.swift in Sources */,
+				7100AF452333D25700D09841 /* SidebarTableViewController.swift in Sources */,
+				71B6CDA325235F40000B9E4D /* SignInMailAccountViewController.swift in Sources */,
+				712DD54D2500F8D700978ADF /* UIViewController+subviewAddRemove.swift in Sources */,
+				71A4AC1D24315EA800954691 /* TabManager.swift in Sources */,
+				712DD5512500FAA300978ADF /* String+substring.swift in Sources */,
+				712DD54F2500F99A00978ADF /* WKWebView+loadURL.swift in Sources */,
+				71FECE9225079B5700532DEC /* ChangelogViewController.swift in Sources */,
+				716186FD24FD4A5B00EE8E66 /* AboutFoundationViewController.swift in Sources */,
 				71F2E6EA2330567000955146 /* AppDelegate.swift in Sources */,
-				7184A68F24310DBD00CF73DD /* MenuCellViewController.swift in Sources */,
+				7184A68F24310DBD00CF73DD /* SidebarTableViewCell.swift in Sources */,
+				7125C27B24FE7D800055EE10 /* ForDonorViewController.swift in Sources */,
+				7141FDA92506479700C58EFB /* PreferencesViewController.swift in Sources */,
+				712DD5532500FB3500978ADF /* UserDefaults+tabsGetSetClear.swift in Sources */,
 				71BAC1372427ACD400923B20 /* SpinnerViewController.swift in Sources */,
-				71BAC13324279B4E00923B20 /* AccountManager.swift in Sources */,
+				717CF76425111D1F008E8C8A /* PreviewEmailViewController.swift in Sources */,
+				7141FDAE25064E2E00C58EFB /* PreferencesTableViewCell.swift in Sources */,
+				71BAC13324279B4E00923B20 /* FirebaseManager.swift in Sources */,
+				71F8C9E3250EBC9D00438AC7 /* EmailTableViewController.swift in Sources */,
+				71F8C9E7250EC65100438AC7 /* EmailManager.swift in Sources */,
+				71CC7EBF24FEB4BC0047EAF7 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +645,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71F2E6ED2330567000955146 /* Main.storyboard */ = {
+		71692F3024FD87FA00A9E633 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				71F2E6EE2330567000955146 /* Base */,
+				71035B8124FD8D6400C543C8 /* Base */,
+				71035B8824FD8DD500C543C8 /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -512,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -559,7 +709,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -573,6 +723,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -614,7 +765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -629,17 +780,21 @@
 			baseConfigurationReference = 9D5CFA51F72CFEBA7A9563C3 /* Pods-FDNT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FDNT/FDNT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W8YMLJYRJQ;
+				DEVELOPMENT_TEAM = RZTYC2K3C5;
 				INFOPLIST_FILE = FDNT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fdnt.app;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.fdnt.dzielo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDNT/FDNT-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -650,17 +805,21 @@
 			baseConfigurationReference = 433D0D099A70FF5C936F907F /* Pods-FDNT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FDNT/FDNT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W8YMLJYRJQ;
+				DEVELOPMENT_TEAM = RZTYC2K3C5;
 				INFOPLIST_FILE = FDNT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fdnt.app;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.fdnt.dzielo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDNT/FDNT-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
