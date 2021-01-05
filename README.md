@@ -40,5 +40,5 @@ The app's current features are:
 
 ## Current status
 
-The application in its current version, published on App Store is made to be the equivalent of Android app.
+The application in its current version, [published on App Store[(https://apps.apple.com/us/app/fdnt/id1515325528) is made to be the equivalent of Android app.
 The new versions will feature remade UI with navigation bar on the bottom according to the latest [design project](https://xd.adobe.com/view/edb9d13d-321f-4b28-9234-a8bef5eda09d-b8ea/).
